@@ -1,0 +1,65 @@
+@charset "utf-8";
+header{
+    background: #E74CD4;
+    border-bottom-color: aqua;
+    border-bottom-style: groove;
+    max-height: 55px;
+}
+header img{
+    float: left
+}
+header strong{
+    float: left;
+    position: absolute;
+    padding-top: 7px;
+    font-size: 25px;
+}
+footer{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background: #2DFA68;
+    border-top-color: aqua;
+    border-top-style: groove;
+}
+body{
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #4A51E9;
+}
+section{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #E74CD4;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.registermodule{
+    display: inline-block;
+    width: 500px;
+}
+.registermodule_form{
+    background: #FF0206;
+    text-align: center;
+}
+html{
+    overflow-y:scroll;
+}

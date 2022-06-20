@@ -1,0 +1,68 @@
+@charset "utf-8";
+header{
+    background: #E74CD4;
+    border-bottom-color: aqua;
+    border-bottom-style: groove;
+    max-height: 55px;
+}
+header img{
+    float: left
+}
+footer{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background: #2DFA68;
+    border-top-color: aqua;
+    border-top-style: groove;
+}
+body{
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #4A51E9;
+}
+section{
+
+    text-align: center;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #E74CD4;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.registerForm{
+    display: inline-block;
+}
+.css-serial {
+    padding-left: 40px;
+    counter-reset: serial-number;  /* Set the serial number counter to 0 */
+}
+
+.css-serial td:first-child:before {
+    counter-increment: serial-number;  /* Increment the serial number counter */
+    content: counter(serial-number);  /* Display the counter */
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+html{
+    overflow-y:scroll;
+}

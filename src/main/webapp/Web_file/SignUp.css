@@ -1,0 +1,40 @@
+@charset "utf-8";
+header{
+    background-color: #E74CD4;
+    border-bottom-color: #0a1e1e;
+    border-bottom-style: groove;
+}
+.BrandLogo{
+    float: left;
+}
+header strong{
+    float: left;
+    position: absolute;
+    padding-top: 7px;
+    font-size: 25px;
+}
+footer{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: #2DFA68;
+    border-top-color: #0c1a1a;
+    border-top-style: groove;
+}
+body{
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+section{
+    background-color: #111ae1;
+    text-align: center
+}
+.RegisterForm{
+    display: inline-block;
+    width: 300px;
+}
+.RegisterForm2{
+    background-color: #e60a0b;
+}
